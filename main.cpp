@@ -50,8 +50,6 @@ int main(int argc, char* argv[])
 
     myPlayer = new VideoPlayer();
     Shower* shower = new Shower();
-//    QObject::connect(myPlayer, SIGNAL(processedImage(cv::Mat)),
-//                               shower, SLOT(show(cv::Mat)));
 
     //QObject::connect(myPlayer, &VideoPlayer::processedImage, shower, &Shower::show);
     //QObject::connect(myPlayer, &VideoPlayer::processedImage, [](cv::Mat img){qDebug() << "Tick";});
